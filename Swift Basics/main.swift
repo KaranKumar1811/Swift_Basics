@@ -10,7 +10,7 @@ import Foundation
 
 
 
-var str = "Hello, playground"
+var str = "Karan Kumar"
 //var s: String
 //s="Karan"
 print(str)
@@ -78,4 +78,43 @@ for i in stride(from: 10, to: 0, by: -2)
     
 }
 
+var x0=Int()
+print(x0)
 
+var x00:Int?
+print(x00)
+
+
+var str1=String()
+print(str1)
+
+
+if str1.isEmpty{
+    print("No Value to String str")
+}
+else
+{
+    print("Thanks")
+}
+
+for character in "Dog!🐶" {
+    print(character)
+}
+
+
+print(str.count)
+print(str.lowercased())
+print(str.uppercased())
+print(str.prefix(2))
+print(str.suffix(2))
+	str.append("😎")
+print(str)
+
+
+
+var input="aaabbccccdeeeab"
+
+/*for j in 0..<input.count{
+    print(input.)
+}
+*/
