@@ -65,11 +65,11 @@ var (_,CollegeNm,CityNm)=x2
 print(CityNm)
 
 var num = -10...1
-for i in -10..<1
+/*for i in -10..<1
 {
     //print("Karan Kumar \(i)")
     
-}
+}*/
 
 
 for i in stride(from: 10, to: 0, by: -2)
